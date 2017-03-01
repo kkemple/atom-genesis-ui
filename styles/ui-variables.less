@@ -46,7 +46,7 @@
 @base-border-color: #0e161b;
 
 @pane-item-background-color: @base-background-color;
-@pane-item-border-color: rgba(0, 0, 0, 0.5);
+@pane-item-border-color: @base-border-color;
 
 @input-background-color: darken(@dark-gray,5%);
 @input-border-color: @base-border-color;
@@ -78,7 +78,7 @@
 @tree-view-border-color: @tool-panel-border-color;
 
 @scrollbar-background-color: #0e161b; // Needs to be opaque -> atom/atom/issues/4578
-@scrollbar-color: rgba(92, 92, 92, 0.5);
+@scrollbar-color: lighten(@button-background-color, 15%);
 
 @ui-site-color-1: @background-color-success; // green
 @ui-site-color-2: @background-color-info; // blue
