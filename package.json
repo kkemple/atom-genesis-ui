@@ -1,11 +1,11 @@
 {
-  "name": "genesis-ui",
+  "name": "oceanic-dark-focus-ui",
   "theme": "ui",
-  "version": "0.5.0",
-  "description": "UI theme for Genesis Syntax",
+  "version": "0.0.0",
+  "description": "UI theme for Oceanic Dark with Focus Mode from Genesis UI",
   "license": "MIT",
   "main": "lib/settings",
-  "repository": "https://github.com/jmcalaway/atom-genesis-ui",
+  "repository": "https://github.com/peggyrayzis/atom-genesis-ui",
   "engines": {
     "atom": ">0.40.0"
   }
